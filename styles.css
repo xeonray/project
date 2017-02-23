@@ -57,24 +57,32 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/edinburgh.jpg') no-repeat fixed center;
+  background: url('images/edinburgh.jpg') no-repeat center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
+header.expedi {
+  text-align: center;
+  background: url('images/edinburgh1.jpg') no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
 header {
   line-height: 1.5;
 }
 header .profile-image {
   margin-top: 50px;
-  width: 150px;
+  width: 180px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 40%;
   border: 3px solid yellow;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(7deg);
 }
 .tag {
   background-color: #efefef;
