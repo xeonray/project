@@ -62,6 +62,13 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+header.scifi {
+  text-align: center;
+  background: url('images/496826.jpg') no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
 header.expedi {
   text-align: center;
   background: url('images/edinburgh1.jpg') no-repeat center;
