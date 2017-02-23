@@ -57,8 +57,8 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/edinburgh1.jpg') no-repeat top center ;
-  background-size: center;
+  background: url('images/edinburgh.jpg') no-repeat fixed center;
+  background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
